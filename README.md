@@ -13,6 +13,8 @@ flutter run -d chrome
 
 ## Chức năng
 
+Logo ứng dụng là chữ 墨 với nét thư pháp xanh mực trên nền giấy trắng và dấu ngọc nhỏ. Logo được dùng trong header, launcher Android (adaptive/themed icon), iOS/iPadOS và web. Bản gốc: `assets/logo.svg`, PNG 1024: `assets/logo.png`. Tạo lại icon bằng `pip install resvg-py Pillow` rồi `python tool/generate_icons.py`. Hình nét chữ lấy từ Hanzi Writer Data 2.0.1, theo Arphic Public License trong `assets/ARPHICPL.TXT`.
+
 Giao diện trắng, chữ xanh than và điểm nhấn xanh ngọc. Header trang chủ có tên ứng dụng, cài đặt và thanh tiến độ của cấp HSK đang chọn. Bảng từ bo góc viền mảnh; iPhone 2 cột, iPad tăng số cột theo chiều rộng.
 
 - 5.000 từ HSK 1–6 đóng gói sẵn. Chọn bằng nút HSK 1–6, mặc định HSK 1; không còn ô tìm kiếm hoặc menu “Tất cả”. Từ chưa viết xếp trước, từ đã viết xếp sau; giữ thứ tự dữ liệu trong mỗi nhóm. Mỗi ô có nhãn trạng thái rõ ràng.

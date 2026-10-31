@@ -563,9 +563,13 @@ class _PracticePageState extends State<PracticePage>
                     borderRadius: BorderRadius.circular(15),
                   ),
                   alignment: Alignment.center,
-                  child: const Text(
-                    '墨',
-                    style: TextStyle(fontSize: 28, color: red),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(15),
+                    child: Image.asset(
+                      'assets/logo.png',
+                      width: 46,
+                      height: 46,
+                    ),
                   ),
                 ),
                 const SizedBox(width: 12),

@@ -95,3 +95,4 @@ flutter:
 
   assets:
     - assets/words.json
+    - assets/logo.png

@@ -1,12 +1,12 @@
 {
-    "name": "hanzi_practice",
-    "short_name": "hanzi_practice",
+    "name": "Mực - Luyện Hán tự",
+    "short_name": "Mực",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#FFFFFF",
+    "theme_color": "#187B78",
+    "description": "Luyện viết chữ tiếng Trung theo HSK",
+    "orientation": "any",
     "prefer_related_applications": false,
     "icons": [
         {
